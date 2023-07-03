@@ -1,0 +1,465 @@
+body {
+    margin: 0;
+}
+
+.logo {
+    width: 287px;
+    font-family: 'EB Garamond';
+    font-weight: 800;
+    font-size: 2.3rem;
+    letter-spacing: 4px;
+    color: #FDF449;
+    mix-blend-mode: normal;
+    margin: 0;
+}
+.part1 {
+    position: relative;
+    max-width: 100%;
+    height: 587px;
+    background: #000000;
+    padding: 4rem 0rem 0rem 5rem;
+}
+.pic1 {
+    height: 651px;
+    width: 40%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.link {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 2rem;
+    margin-right: 2rem;
+    font-family:  Arial, Helvetica, sans-serif'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+}
+.main-link {
+    padding: 1rem;
+    text-decoration-line: none;
+    color: #ffff;
+}
+
+.main-h {
+    display: block;
+    width: 556px;
+    font-family: 'EB Garamond';
+    font-weight: 500;
+    font-size: 3.4rem;
+    color: #FFFFFF;
+}
+.main-p {
+    display: block;
+    width: 411px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.07rem;
+    color: #FCFDD6;
+}
+.main-h2 {
+    display: block;
+    font-family: 'EB Garamond';
+    font-weight: 400;
+    font-size: 2.4rem;
+    color: #FFFFFF;
+}
+.button-1 {
+    width: 170px;
+    height: 40px;
+    border: none;
+    background-color: rgba(253, 244, 73, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 10px;
+}
+.button-1:hover {
+    background-color: rgb(253, 251, 215);
+}
+
+.containers{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 100%;
+    background: #FDF449;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.box {
+    background: #FFFFFF;
+    box-shadow: 11px 15px 9px 2px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.sub-h{
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 0.7rem;
+}
+
+.headings {
+ 
+    width: 300px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.button-2 {
+    width: 110px;
+    height: 38px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 50;
+    font-size: 15px;
+    line-height: 19px;
+    border-radius: 7px;
+}
+
+.button-2:hover {
+    background-color: #fff755;
+    color: #000000;
+}
+
+.post {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width:100%;
+    background: #ffffff;
+    
+}
+
+.photo {
+    width: 350px;
+    height: 360px;
+    border-radius: 9px;
+}
+
+.post-1{
+    padding: 2rem;
+}
+
+.latest-photo {
+    display: block;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 47px;
+    line-height: 109%;
+    color: #000000;
+    padding-left: 4rem;
+}
+
+.sub-h2{
+    width: 300px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 26px;
+    color: #000000;
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+.part-2{
+    max-width: 100%;
+    background: #0F0E0E;
+    padding: 5rem ;
+}
+
+.sub-h3 {
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.5rem;
+    color: #FDF449;
+    margin: 0;
+}
+
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.05rem;
+    letter-spacing: 0.035em;
+    color: #FFFFFF;
+}
+
+.one{
+    font-family: 'EB Garamond';
+    font-weight: 400;
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin: 0;
+    padding-top: 2rem;
+}
+
+.two {
+    font-family: 'EB Garamond';
+    font-weight: 400;
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin: 0;
+    padding-top: 1.3rem;
+}
+
+.points {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.05rem;
+    color: #FFFFFF;
+    padding-top: 1rem;
+}
+.main-icons{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+.num {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin: 0%;
+}
+
+.num-1 {
+     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.part-5 {
+    max-width:100%;
+    position: relative;
+    padding: 7rem 5rem 7rem 5rem;
+}
+
+.about {
+    font-family: 'EB Garamond';
+    font-size: 2.5rem;
+    color: #000000;
+}
+
+.about-me {
+    margin: 0%;
+    width: 620px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.07rem;
+    letter-spacing: 0.035em;
+    color: #000000;
+}
+
+.sub-bt{
+    padding-top: 3rem;
+}
+
+.pic-2 {
+    height: 488px;
+    width: 400px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 3rem;
+    padding-right: 7rem;
+}
+
+.button-3 {
+    background: #FDF449;
+    border: none;
+    border-radius: 9px;
+    width: 130px;
+    height: 42px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.button-3:hover {
+    background-color: #0c0c0c;
+    color: #FCFDD6;
+}
+
+.part-6 {
+    max-width: 100%;
+    background-color: #FDF449;
+    position: relative;
+    padding: 5rem;
+}
+
+.contact {
+    margin: 0;
+    font-family: 'EB Garamond';
+    font-size: 2.5rem;
+    color: #000000;
+    padding-bottom: 2rem;
+}
+
+.form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    line-height: 48px;
+    color: #000000;
+
+}
+
+input {
+    background: #FFFFFF;
+    border-radius: 9px;
+    height: 38px;
+    width: 330px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+}
+
+.button-4 {
+    width: 150px;
+    height: 45px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 50;
+    font-size: 17px;
+    line-height: 19px;
+    border-radius: 14px;
+}
+
+.button-4:hover {
+    background-color: #f3f3ed;
+    color: #000000;
+}
+
+.bt{
+    padding-top: 3rem;
+}
+
+.pic-3 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 6rem;
+    padding-right: 6rem;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    background: #000000;
+    padding: 2.2rem;
+}
+
+.logo-1 {
+    
+    display: inline;
+    font-family: 'EB Garamond';
+    font-size: 2rem;
+    letter-spacing: 4px;
+    color: #FDF449;
+    mix-blend-mode: normal;
+}
+.logo-1 h2{
+    margin: 0;
+}
+
+.nav-1 {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    font-family: sans-serif;
+    font-size: 1.28rem;
+}
+.end-link{
+    margin: auto;
+    text-decoration-line: none;
+    color: #ffff;
+}
+
+.end2023 {
+    width: 215px;
+    font-family: sans-serif;
+    font-size: 1.15rem;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1200px) {
+    .pic1, .link , .pic-3, .pic-2{
+        display: none;
+    }
+    .part1{
+        padding-left: 0;
+    }
+    .logo{
+        padding-left: 5rem;
+    }
+    .containers{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .main-h, .main-h2{
+        padding: 2rem;
+    }
+    .latest-photo{
+        padding: 1.5rem;
+    }
+    .box {
+        margin: 3rem 7rem;
+    }
+    .latest-photo,.sub-h2, .contact, .form, .sub-h3, 
+    .content, .one, .points, .two, .main-icons, .about{
+        text-align: left;
+    }
+
+    .main-h, .main-h2, .main-p, .main-bt{
+        text-align: center;
+        margin: auto;
+    }
+    .posts{
+        margin: 0.9rem 7rem;
+    }
+    .sub-h2{
+        margin: 0;
+    }
+
+    .part-2, .part-6{
+        padding: 8rem;
+    }
+    .part-5{
+        padding: 5rem 5rem 7rem 8rem;
+    }
+}
